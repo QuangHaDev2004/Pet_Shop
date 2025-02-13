@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/pet-svgrepo-com.svg">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Pet Shop</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div style="display: flex;align-items: center;gap: 30px;">
+        <a href="/" class="header-logo">
+          <img src="./assets/images/Logo.svg" alt="Logo">
+        </a>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Danh Mục</a></li>
+            <li><a href="#">Giới Thiệu</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div style="display: flex; gap: 12px;">
+        <div class="search-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Nhập từ khóa...">
+        </div>
+        <a href="#" class="btn btn-main">Tham Gia Cộng Đồng</a>
+      </div>
+    </div>
+    <img src="./assets/images/Rectangle_9.svg" alt="" class="header-img" data-aos="fade-down-right">
+  </header>
+
+  <main>
+    <!-- Herro Banner -->
+    <div class="herro-banner">
+      <div class="container">
+        <div style="width: 50%; padding-top: 80px; position: relative;">
+          <img src="./assets/images/Rectangle_3.svg" alt="" class="img-rec-3" data-aos="fade-right">
+          <div data-aos="fade-up" data-aos-duration="1200">
+            <h1>Thêm Một Bạn</h1>
+            <h2>Thêm Ngàn Niềm Vui!</h2>
+            <p>Có một con thú cưng đồng nghĩa với việc bạn có thêm niềm vui mới. Chúng tôi có hơn 200 con thú cưng khác
+              nhau có thể đáp ứng nhu cầu của bạn!
+            </p>
+          </div>
+          <div style="display: flex; gap: 16px;" data-aos="fade-up" data-aos-duration="1200">
+            <a href="#" class="btn" style="display: flex; align-items: center; gap: 10px;">
+              <span>Giới thiệu</span>
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="#" class="btn btn-main">Khám Phá Ngay</a>
+          </div>
+          <img src="./assets/images/Rectangle_8.svg" alt="" class="img-rec-8" data-aos="fade-up"
+            data-aos-duration="1000">
+        </div>
+        <div style="width: 50%; position: relative;">
+          <img src="./assets/images/Group_2.svg" alt="" class="img-group-2" data-aos="zoom-in" data-aos-duration="1000">
+          <img src="./assets/images/Human.png" alt="" class="img-human" data-aos="fade-up" data-aos-duration="1000">
+        </div>
+      </div>
+    </div>
+    <!-- End Herro Banner -->
+
+    <!-- List Pet -->
+    <div class="list-pet">
+      <div class="container">
+        <div class="box-head">
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <span>Có gì mới?</span>
+            <h3>Một Số Vật Nuôi Của Chúng Tôi</h3>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <a href="#" class="btn" style="display: flex; gap: 8px; align-items: center;">
+              <span style="font-size: 14px; font-weight: 500;">Xem thêm</span>
+              <i class="fa-solid fa-angle-right" style="font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+          <a href="#" class="item-pet">
+            <img src="./assets/images/pet_1.png" alt="">
+            <div class="item-content">
+              <h4>MO231 - Pomeranian Trắng</h4>
+              <p>
+                Giống: <span>Đực</span>
+                <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
+                Tuổi: <span>02 Tháng</span>
+              </p>
+              <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End List Pet -->
+
+    <!-- Banner -->
+    <div class="banner">
+      <div class="container">
+        <div style="width: 50%;">
+          <img src="./assets/images/Human_2.png" alt="" class="img-human-2" data-aos="fade-right"
+            data-aos-duration="1000">
+        </div>
+        <div style="width: 50%; text-align: right; margin-top: 20px;" data-aos="zoom-in-left" data-aos-duration="1200">
+          <h1>Thêm Một Bạn</h1>
+          <h2>Thêm Ngàn Niềm Vui!</h2>
+          <p>Có một con thú cưng đồng nghĩa với việc bạn có thêm niềm vui mới. Chúng tôi có hơn 200 con thú cưng khác
+            nhau có thể đáp ứng nhu cầu của bạn!
+          </p>
+          <div style="display: flex; gap: 16px; justify-content: end;">
+            <a href="#" class="btn" style="display: flex; align-items: center; gap: 10px;">
+              <span>Giới thiệu</span>
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="#" class="btn btn-main">Khám Phá Ngay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Knowledge Pet -->
+    <div class="knowledge-pet">
+      <div class="container">
+        <div class="box-head">
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <span>Có thể bạn đã biết?</span>
+            <h3>Kiến thức thú cưng hữu ích</h3>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <a href="#" class="btn" style="display: flex; gap: 8px; align-items: center;">
+              <span style="font-size: 14px; font-weight: 500;">Xem thêm</span>
+              <i class="fa-solid fa-angle-right" style="font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-between;" data-aos="fade-up" data-aos-duration="1000">
+          <a href="#" class="knowledge-item">
+            <img src="./assets/images/knowledge.jpg" alt="">
+            <div class="knowledge-content">
+              <div class="knowledge-tag">Kiến thức thú cưng</div>
+              <h4>Pomeranian là gì? Cách nhận biết chó Pomeranian</h4>
+              <p>
+                Pomeranian hay còn gọi là chó Pomeranian (chó Pom) luôn nằm trong top những thú cưng dễ thương nhất.
+                Không chỉ vậy, giống chó xiếc nhỏ nhắn, đáng yêu, thông minh, thân thiện và khéo léo.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="knowledge-item">
+            <img src="./assets/images/knowledge_2.jpg" alt="">
+            <div class="knowledge-content">
+              <div class="knowledge-tag">Kiến thức thú cưng</div>
+              <h4>Chế độ ăn cho chó bạn cần biết</h4>
+              <p>
+                Việc chia khẩu phần ăn cho chó thoạt nghe có vẻ đơn giản nhưng có một số quy tắc bạn nên biết để chó
+                cưng dễ dàng hấp thụ các chất dinh dưỡng trong khẩu phần ăn. Dành cho những người mới bắt đầu nuôi chó,
+                đặc biệt là chó con mới sinh có sức đề kháng tương đối yếu.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="knowledge-item">
+            <img src="./assets/images/knowledge_3.jpg" alt="">
+            <div class="knowledge-content">
+              <div class="knowledge-tag">Kiến thức thú cưng</div>
+              <h4>Tại sao chó cắn phá đồ đạc và cách phòng ngừa hiệu quả</h4>
+              <p>
+                Chó cắn là hiện tượng phổ biến trong quá trình phát triển. Tuy nhiên, không ai muốn thấy đồ đạc, vật
+                dụng quan trọng của mình bị chó cắn.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Knowledge Pet -->
+
+    <!-- Contact -->
+    <div class="contact">
+      <div class="container">
+        <div class="contact-form" data-aos="zoom-in-up" data-aos-duration="1000">
+          <h3>Đăng ký ngay để không bỏ lỡ các chương trình của chúng tôi</h3>
+          <form action="">
+            <input type="email" placeholder="Nhập email của bạn...">
+            <a href="#" class=" btn btn-square">Đăng Ký Ngay</a>
+          </form>
+        </div>
+        <div class="contact-sub">
+          <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Danh Mục</a></li>
+            <li><a href="#">Giới Thiệu</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+          </ul>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 QuangHaDev. All rights reserved.</p>
+      <img src="./assets/images/Logo.svg" alt="">
+      <div style="display: flex; gap: 20px;">
+        <a href="">Điều khoản dịch vụ</a>
+        <a href="">Chính sách bảo mật</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
