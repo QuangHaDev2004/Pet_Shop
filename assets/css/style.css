@@ -565,7 +565,7 @@
   }
 
   .contact-sub ul {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .contact-sub li {
@@ -601,6 +601,7 @@
 
 .footer-mobile {
   text-align: center;
+  display: none;
 }
 
 @media (max-width: 575.98px) {
@@ -615,6 +616,10 @@
 
   .footer-mobile div {
     margin: 40px 0 30px;
+  }
+
+  .footer-mobile {
+    display: block;
   }
 }
 
