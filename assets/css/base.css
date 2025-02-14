@@ -3,6 +3,7 @@
 :root {
   --color-one: #003459;
   --color-two: #00A7E7;
+  --color-three: #F7DBA7;
   --color-text: #667479;
   --font: "Be Vietnam Pro", serif;
   --bg-one: #FCEED5;
@@ -82,6 +83,17 @@ p {
   padding: 12px 28px;
 }
 
+.btn-see-more-mobile {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .btn-see-more-mobile {
+    display: block;
+  }
+}
+
+
 /* End Button */
 
 /* Box Head */
@@ -95,6 +107,24 @@ p {
 .box-head h3 {
   margin-top: 14px;
   font-size: 24px;
+}
+
+@media (max-width: 575.98px) {
+  .btn-see-more {
+    display: none;
+  }
+
+  .box-head span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .box-head h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 4px;
+  }
+
 }
 
 /* End Box Head */

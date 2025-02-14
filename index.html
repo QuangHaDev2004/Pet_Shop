@@ -20,25 +20,34 @@
 <body>
   <header class="header">
     <div class="container">
-      <div style="display: flex;align-items: center;gap: 30px;">
+      <div class="header-pc">
+        <div style="display: flex; align-items: center; gap: 30px;">
+          <a href="/" class="header-logo">
+            <img src="./assets/images/Logo.svg" alt="Logo">
+          </a>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Danh Mục</a></li>
+              <li><a href="#">Giới Thiệu</a></li>
+              <li><a href="#">Liên Hệ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div style="display: flex; gap: 12px;">
+          <div class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Nhập từ khóa...">
+          </div>
+          <a href="#" class="btn btn-main">Tham Gia Cộng Đồng</a>
+        </div>
+      </div>
+      <div class="header-mobile">
+        <i class="fa-solid fa-bars"></i>
         <a href="/" class="header-logo">
           <img src="./assets/images/Logo.svg" alt="Logo">
         </a>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Trang chủ</a></li>
-            <li><a href="#">Danh Mục</a></li>
-            <li><a href="#">Giới Thiệu</a></li>
-            <li><a href="#">Liên Hệ</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div style="display: flex; gap: 12px;">
-        <div class="search-input">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" placeholder="Nhập từ khóa...">
-        </div>
-        <a href="#" class="btn btn-main">Tham Gia Cộng Đồng</a>
+        <i class="fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
     <img src="./assets/images/Rectangle_9.svg" alt="" class="header-img" data-aos="fade-down-right">
@@ -48,7 +57,7 @@
     <!-- Herro Banner -->
     <div class="herro-banner">
       <div class="container">
-        <div style="width: 50%; padding-top: 80px; position: relative;">
+        <div class="herro-content">
           <img src="./assets/images/Rectangle_3.svg" alt="" class="img-rec-3" data-aos="fade-right">
           <div data-aos="fade-up" data-aos-duration="1200">
             <h1>Thêm Một Bạn</h1>
@@ -67,7 +76,7 @@
           <img src="./assets/images/Rectangle_8.svg" alt="" class="img-rec-8" data-aos="fade-up"
             data-aos-duration="1000">
         </div>
-        <div style="width: 50%; position: relative;">
+        <div class="herro-image">
           <img src="./assets/images/Group_2.svg" alt="" class="img-group-2" data-aos="zoom-in" data-aos-duration="1000">
           <img src="./assets/images/Human.png" alt="" class="img-human" data-aos="fade-up" data-aos-duration="1000">
         </div>
@@ -83,7 +92,7 @@
             <span>Có gì mới?</span>
             <h3>Một Số Vật Nuôi Của Chúng Tôi</h3>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-left" data-aos-duration="1000" class="btn-see-more">
             <a href="#" class="btn" style="display: flex; gap: 8px; align-items: center;">
               <span style="font-size: 14px; font-weight: 500;">Xem thêm</span>
               <i class="fa-solid fa-angle-right" style="font-size: 12px;"></i>
@@ -95,11 +104,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -107,11 +116,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -119,11 +128,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -131,11 +140,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -143,11 +152,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -155,11 +164,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -167,11 +176,11 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
           </a>
@@ -179,13 +188,20 @@
             <img src="./assets/images/pet_1.png" alt="">
             <div class="item-content">
               <h4>MO231 - Pomeranian Trắng</h4>
-              <p>
-                Giống: <span>Đực</span>
+              <div class="item-desc">
+                <div>Giống: <span>Đực</span></div>
                 <i class="fa-solid fa-circle" style="font-size: 3px;"></i>
-                Tuổi: <span>02 Tháng</span>
-              </p>
+                <div>Tuổi: <span>02 Tháng</span></div>
+              </div>
               <div style="font-size: 14px; font-weight: 700;">6.900.000 VND</div>
             </div>
+          </a>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="btn-see-more-mobile">
+          <a href="#" class="btn"
+            style="display: flex; gap: 8px; align-items: center; justify-content: center; margin-top: 20px;">
+            <span style="font-size: 14px; font-weight: 500;">Xem thêm</span>
+            <i class="fa-solid fa-angle-right" style="font-size: 12px;"></i>
           </a>
         </div>
       </div>
@@ -195,17 +211,17 @@
     <!-- Banner -->
     <div class="banner">
       <div class="container">
-        <div style="width: 50%;">
+        <div class="banner-image">
           <img src="./assets/images/Human_2.png" alt="" class="img-human-2" data-aos="fade-right"
             data-aos-duration="1000">
         </div>
-        <div style="width: 50%; text-align: right; margin-top: 20px;" data-aos="zoom-in-left" data-aos-duration="1200">
+        <div class="banner-content" data-aos="zoom-in-left" data-aos-duration="1200">
           <h1>Thêm Một Bạn</h1>
           <h2>Thêm Ngàn Niềm Vui!</h2>
           <p>Có một con thú cưng đồng nghĩa với việc bạn có thêm niềm vui mới. Chúng tôi có hơn 200 con thú cưng khác
             nhau có thể đáp ứng nhu cầu của bạn!
           </p>
-          <div style="display: flex; gap: 16px; justify-content: end;">
+          <div class="btn-wrap">
             <a href="#" class="btn" style="display: flex; align-items: center; gap: 10px;">
               <span>Giới thiệu</span>
               <i class="fa-regular fa-circle-play"></i>
@@ -225,14 +241,15 @@
             <span>Có thể bạn đã biết?</span>
             <h3>Kiến thức thú cưng hữu ích</h3>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-left" data-aos-duration="1000" class="btn-see-more">
             <a href="#" class="btn" style="display: flex; gap: 8px; align-items: center;">
               <span style="font-size: 14px; font-weight: 500;">Xem thêm</span>
               <i class="fa-solid fa-angle-right" style="font-size: 12px;"></i>
             </a>
           </div>
         </div>
-        <div style="display: flex; justify-content: space-between;" data-aos="fade-up" data-aos-duration="1000">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap;" data-aos="fade-up"
+          data-aos-duration="1000">
           <a href="#" class="knowledge-item">
             <img src="./assets/images/knowledge.jpg" alt="">
             <div class="knowledge-content">
@@ -268,6 +285,13 @@
             </div>
           </a>
         </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="btn-see-more-mobile">
+          <a href="#" class="btn"
+            style="display: flex; gap: 8px; align-items: center; justify-content: center; margin-top: 20px;">
+            <span style="font-size: 14px; font-weight: 500;">Xem thêm</span>
+            <i class="fa-solid fa-angle-right" style="font-size: 12px;"></i>
+          </a>
+        </div>
       </div>
     </div>
     <!-- End Knowledge Pet -->
@@ -289,7 +313,7 @@
             <li><a href="#">Giới Thiệu</a></li>
             <li><a href="#">Liên Hệ</a></li>
           </ul>
-          <ul>
+          <ul class="social">
             <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
@@ -303,16 +327,26 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© 2025 QuangHaDev. All rights reserved.</p>
-      <img src="./assets/images/Logo.svg" alt="">
-      <div style="display: flex; gap: 20px;">
-        <a href="">Điều khoản dịch vụ</a>
-        <a href="">Chính sách bảo mật</a>
+      <div class="footer-pc">
+        <p>© 2025 QuangHaDev. All rights reserved.</p>
+        <img src="./assets/images/Logo.svg" alt="">
+        <div style="display: flex; gap: 20px;">
+          <a href="">Điều khoản dịch vụ</a>
+          <a href="">Chính sách bảo mật</a>
+        </div>
+      </div>
+      <div class="footer-mobile">
+        <img src="./assets/images/Logo.svg" alt="">
+        <div style="display: flex; gap: 20px; justify-content: center;">
+          <a href="">Điều khoản dịch vụ</a>
+          <a href="">Chính sách bảo mật</a>
+        </div>
+        <p>© 2025 QuangHaDev. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-
+  <!-- JS Animation -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
